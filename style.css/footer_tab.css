@@ -1,0 +1,84 @@
+/* Footer Style Start*/
+
+#footer{
+    background-color: rgb(24,24,24);
+    padding: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* logo style */
+.logo{
+    margin: 10px 40px;
+    color: gold;
+    line-height: 1px;
+}
+
+/* box style  */
+#box{ 
+    display: grid;
+    width: 90%;
+    margin: 40px 40px;
+    justify-content: space-between;
+}
+/* 2nd box style */
+#box:nth-child(3){
+    width: 70%;
+}
+.icons>span>i{
+    color: white;
+    margin-right: 20px;
+}
+i{
+    padding-right: 10px;
+}
+/* list style  */
+ul{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    line-height: 10px;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+}
+/* Heading color style  */
+/* #contant{
+    display: grid;
+} */
+#content>p{
+    color: gold;
+}
+
+ /* email input section style  */
+form input{
+    background-color: #181818;
+    border: transparent;
+    border-bottom: 1px solid gold;
+    font-size: 18px;
+}
+#sub{
+    background-color: gold;
+    border: transparent;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+hr{
+    width: 95%;
+    justify-content: center;
+}
+
+/* shortcuts style  */
+h3{
+    color: white;
+}
+#extra{
+    color: #51ccc4;
+    margin-bottom: 30px;
+}
+/* Footer Style End*/

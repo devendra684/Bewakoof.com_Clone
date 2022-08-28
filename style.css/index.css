@@ -1,0 +1,116 @@
+/* index page style  */
+
+body{
+    margin: 0px;
+    z-index: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav_sec{
+    /* margin-top: 400px; */
+    height: 130px;
+}
+#top,#mid,#bottom{
+    width: 98%;
+    margin: 0px auto ;
+}
+img{
+    cursor: pointer;
+}
+.head{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/* top section middle part */
+#top_div{
+    margin: 0px auto 20px;
+}
+#top_div img{
+    width: 100%;
+}
+/* top mid shortcut section  */
+#top_mid{
+    display: grid;
+    width: 88%;
+    margin: auto;
+    margin-top: 40px;
+    grid-template-columns: repeat(9,1fr);
+    gap: 30px;
+}
+#top_mid img{
+    /* width: 100px; */
+    height: 150px;
+    border-radius: 10px;
+}
+#top_mid p {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -2px;
+}
+/* top bottom section style */
+#top_bottom img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* middle section style */
+/* mid top style */
+#mid_one{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+#mid_one img{
+    width: 100%;
+}
+
+/* middle discount section  */
+.mid_sec{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+.mid_sec>img{
+    width: 100%;
+}
+
+/* middle best seller section */
+.mid_trd_img{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.mid_trd_img img{
+    width: 100%;
+}
+/* middle all related style  */
+.head{
+    text-align: center;
+    font-weight: bold;
+}
+#view-all{
+    text-align: center;
+    color: skyblue;
+    margin-bottom: 10px;
+}
+
+/* bottom section  */
+/* bottom top section  */
+.bott-top{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.bott-top img{
+    width: 100%;
+}
+
+/* bottom bargain section  */
+.bott_img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.bott_img img{
+    width: 100%;
+}

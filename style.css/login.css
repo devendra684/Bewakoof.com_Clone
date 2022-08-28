@@ -1,0 +1,90 @@
+/* login page style  */
+#nav_sec{
+    height: 130px;
+}
+#login {
+    display: flex;
+    /* margin-top: 40px; */
+    text-decoration: none;
+}
+#head{
+    padding-left: 30px;
+    color: black;
+    border: none;
+    text-decoration: none;
+}
+.input {
+    text-align: center;
+    width: 100%;
+}
+h4 {
+    color: darkgray;
+    margin: 10px;
+    text-decoration: none;
+}
+.input input {
+    width: 50%;
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#continue {
+    background-color: #42a2a2;
+    color: white;
+}
+#continue a{
+    color: white;
+}
+button {
+    padding: 10px 5px;
+    width: 50%;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #615c5c;
+}
+input[type="submit"] {
+    cursor: pointer;
+}
+#dash {
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+.line {
+    border-bottom: 1px solid darkgray;
+    height: 1px;
+    width: 50%;
+    margin: auto;
+}
+#or {
+    margin: 20px 0;
+    width: 10%;
+}
+#mail {
+    cursor: pointer;
+}
+#go_fb button {
+    width: 25%;
+}
+p {
+    width: 50%;
+    margin: auto;
+    margin-top: -20px;
+    font-size: 13px;
+    text-align: left;
+    position: relative;
+    bottom: -30px;
+    color: darkgray;
+}
+#about a{
+    color: #42a2a2;
+}

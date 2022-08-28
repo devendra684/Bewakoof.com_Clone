@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(255,245,205);
+}
+#otp_box{
+    padding: 100px;
+    margin: auto;
+}#otp_box2{
+    border: 1px solid gold;
+    padding-top: 10px;
+    margin: auto;
+}
+#otp_box2 h1,h4,form{
+    text-align: center;
+    margin: 10px;
+    color: black;
+}
+h4{
+    border: none;
+}
+#otp1{
+    font-size: large;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    margin-top: 20px;
+    width: 20%;
+}
+.resend{
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+button{
+    padding: 10px;
+    width: 20%;
+}
+#img{
+    width: 100%;
+    height: 200px;
+    margin-top: -2%;
+}
